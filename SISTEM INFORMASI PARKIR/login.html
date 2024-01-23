@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>SIPAK STT NF</title>
+
+  <!-- Google Font: Source Sans Pro -->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700&display=fallback">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="plugins/fontawesome-free/css/all.min.css">
+  <!-- icheck bootstrap -->
+  <link rel="stylesheet" href="plugins/icheck-bootstrap/icheck-bootstrap.min.css">
+  <!-- Theme style -->
+  <link rel="stylesheet" href="dist/css/adminlte.min.css">
+
+  <style>
+    body {
+      background-color: #dadee3;
+      background-image: url(./image/gambar\ oren.jpg);
+      margin: 0;
+      /* Remove default body margin */
+    }
+
+    .login-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      height: 100vh;
+      padding: 20px;
+      /* Add padding to the container for spacing */
+    }
+
+    .text-container {
+      max-width: 400px;
+      margin-right: 80px;
+      /* Add margin to the right side of the text container */
+    }
+
+    .login-box {
+      max-width: 400px;
+      margin-left: 60px;
+      /* Add margin to the left side of the login box */
+    }
+
+    .login-card-body {
+      background-color: #fff;
+      /* Optional: Set a background color for the card body */
+      padding: 20px;
+      /* Add padding to the card body for spacing */
+    }
+
+    .btn-signin {
+      padding: 8px;
+      /* Increase the padding to make the button larger */
+      font-size: 15px;
+      /* Increase the font size if needed */
+    }
+  </style>
+</head>
+<body class="hold-transition login-page">
+  <div class="login-container">
+    <div class="text-container">
+      <!-- Text on the left side -->
+      <h5>Welcome to SI Parkir Kampus STT NF</h5>
+      <p>
+        Sekolah Tinggi Teknologi Terpadu Nurul Fikri (STT NF) merupakan perguruan tinggi swasta yang berlokasi di Depok,
+        Jawa Barat.
+        STT NF memiliki area parkir yang luas
+        untuk menampung kendaraan para civitas akademika, baik mahasiswa, dosen, maupun karyawan.
+      </p>
+    </div>
+
+    <div class="login-box">
+      <div class="login-logo">
+      </div>
+      <div class="card">
+        <div class="card-body login-card-body">
+          <p class="login-box-msg">Silahkan Login</p>
+
+          <form action="" method="post">
+            <div class="form-group row">
+              <label for="" class="col-4 col-form-label">Username:</label>
+              <div class="col-8">
+                <input type="Username" name="username" id="username" placeholder="username" class="form-control">
+              </div>
+            </div>
+            <div class="form-group row">
+              <label for="" class="col-4 col-form-label">Password:</label>
+              <div class="col-8">
+                <input type="password" name="password"  id="password" placeholder="password" class="form-control">
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-8">
+                <div class="icheck-primary">
+                  <input type="checkbox" id="remember">
+                  <label for="remember">
+                    Remember Me ?
+                  </label>
+                </div>
+              </div>
+              <button type="submit" onclick="return login()" class="form-control btn btn-primary submit px-3">Login</button>
+          </form>
+
+          <div class="social-auth-links text-center mb-3">
+          </div>
+
+          <p class="mb-1">
+            <a href="registrasi_user.html">forgot Password</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="auth.js"></script>
+</html>

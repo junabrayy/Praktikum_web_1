@@ -1,0 +1,13 @@
+.card img{
+    height: 50vh;
+    width: 93%;
+    margin: 10px;
+    
+}
+.card-body{
+    background: transparent;
+    border: none;
+    padding: 1px;
+
+}
+
